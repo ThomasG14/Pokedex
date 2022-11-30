@@ -15,12 +15,12 @@ body{
 {
     background-color: rgb(49, 49, 49);
     width: 350px;
-    height: 600px;
+    height: 550px;
     padding: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px white solid;
+    border: 2px red solid;
     border-radius: 25px;
 }
 
@@ -35,14 +35,95 @@ body{
     justify-content: center;
 }
 
+.info-pokemon
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #image
 {
     width: 160px;
     height: 160px;
 }
 
+
 .barstat
+{
+    margin: 0;
+    height: 30px;
+}
+
+.containerbar
 {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.containerbar p
+{
+    padding: 0 10px;
+}
+
+
+.bar
+{
+    background-color: grey;
+    border-radius: 25px;
+    width: 300px;
+    height: 18px;
+}
+
+.longbar
+{
+    border-radius: 25px;
+    text-align: right;
+    margin: 0;
+    height: 18px;
+    font-size: 15px;
+    white-space : nowrap;
+}
+#hp
+{
+    background-color: rgb(185, 34, 14);
+}
+#def
+{
+    background-color: rgb(9, 129, 138);
+}
+#atk
+{
+    background-color: rgb(206, 99, 0);
+}
+#spd
+{
+    background-color: rgb(72, 145, 179);
+}
+#exp
+{
+    background-color: rgb(14, 180, 42);
+}
+
+
+
+
+
+#button
+{
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px red solid;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+#button:hover
+{
+    border: 2px rgb(180, 4, 4) solid;
+    color: rgb(172, 172, 172);
 }
